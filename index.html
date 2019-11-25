@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Les incroyables histoires de merde</h1>
+</header>
+<p>
+    <span class="button" id="button-add">Options</span>
+    <span class="button" id="button-cacher">Masquer</span>
+</p>
+
+<div id="add-list">
+    <input type="text" id="entry" name="entry" placeholder="Entrez votre texte ici">
+    <p>
+        <span class="button" id="button-delete-lieu">Supprimer le dernier lieu</span>
+        <span class="button" id="button-add-lieu">Ajouter un lieu</span>
+        <span class="button" id="button-show-lieu">Voir les lieux</span>
+    </p>
+    <p>
+        <span class="button" id="button-delete-temperature">Supprimer la derniere temperature</span>
+        <span class="button" id="button-add-temperature">Ajouter une température</span>
+        <span class="button" id="button-show-temperature">Voir les températures</span>
+    </p>
+    <p>
+        <span class="button" id="button-delete-objet">Supprimer le dernier objet</span>
+        <span class="button" id="button-add-objet">Ajouter un objet</span>
+        <span class="button" id="button-show-objet">Voir les objets</span>
+    </p>
+    <p>
+        <span class="button" id="button-delete-nom">Supprimer le dernier nom</span>
+        <span class="button" id="button-add-nom">Ajouter un nom</span>
+        <span class="button" id="button-show-nom">Voir les noms</span>
+    </p>
+    <p>
+        <span class="button" id="button-delete-verbe">Supprimer le dernier verbe</span>
+        <span class="button" id="button-add-verbe">Ajouter un verbe</span>
+        <span class="button" id="button-show-verbe">Voir les verbes</span>
+    </p>
+
+    <div id="show-list">
+        <ul id="list"></ul>
+    </div>
+
+</div>
+
+<span id="go" class="button">GENERER UNE PHRASE ALEATOIRE</span>
+<a href="#top"><p id="bot">Aller en bas de page</p></a>
+<div id="mydiv"></div>
+<a href="#go"><p id="top">Retourner en haut de page</p></a>
+
+
+
+<script src=script.js></script>
+</body>
+</html>
